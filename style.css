@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0px;
 }
@@ -21,6 +23,7 @@ header{
     gap: 10px;
     align-items: center;
     color: #575757;
+    
 
 }
 .button{
@@ -29,6 +32,68 @@ header{
     border-radius: 10px;
     color:white;
     font-weight: bold;
+    border: none;
 
 }
  /* header section done */
+
+
+ .hero{
+    height: 600px;
+    background: url(./pic/assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+ }
+ .overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5)
+    
+    
+ }
+.hero-1 h1{
+    font-size: 70px;
+    margin-bottom: 50px;
+    padding-top: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+ }
+ .hero-1 p{
+    font-size: 20px;
+     font-family: "Inter", sans-serif;
+    margin-bottom: 35px;
+    color: white;
+    text-align: center;
+     position: relative;
+    z-index: 1;
+
+ }
+ .hero-1 button{
+    display: block;
+    margin: 60px auto;
+    background-color: #1d4ed8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: relative;
+    z-index: 1;
+    
+}
+ /* banner section done */
+
+
+
+
+ 
+  
