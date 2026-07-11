@@ -44,7 +44,8 @@ header{
     background-size: cover;
     background-position: center;
     position: relative;
-    
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
    width: 100%;
@@ -59,7 +60,7 @@ header{
 .hero-1 h1{
     font-size: 70px;
     margin-bottom: 50px;
-    padding-top: 70px;
+    
     font-family: "Inter", sans-serif;
     font-weight: bold;
     color: white;
@@ -78,7 +79,7 @@ header{
 
  }
  .hero-1 button{
-    display: block;
+     display: block;
     margin: 60px auto;
     background-color: #1d4ed8;
     padding: 10px 20px;
@@ -87,7 +88,7 @@ header{
     font-weight: bold;
     border: none;
     position: relative;
-    z-index: 1;
+    z-index: 1; 
     
 }
  /* banner section done */
@@ -95,5 +96,136 @@ header{
 
 
 
+ .speakers h1{
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    
+    
+ }
+ .box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    align-items:stretch ;
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 40px;
+    gap: 30px;
+    
+ }
+ .box1{
+     border-radius: 12px 12px 12px 12px;
+     border-color: 1px #e5e7eb ;
+    overflow: hidden;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+    
+ }
+ img{
+    width: 100%;
+    display: block;
+ }
  
-  
+ 
+
+
+
+
+
+ .box1 .parents1{
+    color:#2563eb;
+    font-size: small;
+    font-weight: bold;
+     font-family: "Inter", sans-serif;
+     padding-left: 12px;
+ }
+ .box1 .parents2{
+    color: #0d1b2a;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+
+ }
+ .box1 .parents3{
+    color: #575757;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+
+ }
+ .box2 .parents4{ 
+    color:#2563eb;
+    font-size: small;
+    font-weight: bold;
+     font-family: "Inter", sans-serif;
+     padding-left: 12px;
+     padding-top: 10px;
+     
+ }
+ .box2 .parents5{
+    color: #0d1b2a;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.box2 .parents6{
+    color: #575757;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+}
+
+.box3 .parents7
+{ color:#2563eb;
+    font-size: small;
+    font-weight: bold;
+     font-family: "Inter", sans-serif;
+     padding-left: 12px;
+     padding-top: 10px;}
+.box3 .parents8
+{color: #0d1b2a;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+     padding-top: 10px;
+}
+.box3 .parents9
+{ color: #575757;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+}
+.box4 .parents10
+{ color:#2563eb;
+    font-size: small;
+    font-weight: bold;
+     font-family: "Inter", sans-serif;
+     padding-left: 12px;
+    padding-top: 10px; }
+.box4 .parents11
+{color: #0d1b2a;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+.box4 .parents12
+{ color: #575757;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    padding-left: 12px;
+}
+
+/* speakers section end */
+ 
+
+ 
