@@ -27,13 +27,24 @@ header{
 
 }
 .button{
-    background-color: #1d4ed8;
+    
     padding: 10px;
     border-radius: 10px;
-    color:white;
+    background-color:#2563eb;
+    text-align: center;
+    
+    
+    border-color:#2563eb ;
+    
+    border-radius: 10px;
+    color: white;
     font-weight: bold;
-    border: none;
-
+    
+    
+    
+    z-index: 1; 
+    
+cursor: pointer;
 }
  /* header section done */
 
@@ -79,7 +90,7 @@ header{
 
  }
  .hero-1 button{
-     display: block;
+     /* display: block;
     margin: 60px auto;
     background-color: #1d4ed8;
     padding: 10px 20px;
@@ -87,9 +98,22 @@ header{
     color: white;
     font-weight: bold;
     border: none;
-    position: relative;
+   position: relative;
     z-index: 1; 
+    cursor: pointer;
     
+    border-radius: 10px; */
+     display: block;
+    margin: 60px auto;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+   
 }
  /* banner section done */
 
@@ -226,6 +250,154 @@ header{
 }
 
 /* speakers section end */
+
+
+
+.section-h1{
+    text-align: center;
+    
+    padding-top: 150px;
+    font-size: 46px;
+    color: #0d1b2a;
+     font-family: "Inter", sans-serif;
+
+}
+.p1{
+    color: #575757;
+    text-align: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    padding-top: 20px;
+}
+.section-div{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    
+    align-items:stretch ;
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 40px;
+    gap: 30px;
+    
+}
+
+
+.p11{
+    padding-left: 17px;
+    padding-top: 17px;
+     font-family: "Inter", sans-serif;
+     color: #888888;
+}
+.p12{
+   font-family: "Inter", sans-serif; 
+    padding-left: 17px;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #0d1b2a;
+    font-size: 40px;
+
+}
+.p13{
+    
+   font-family: "Inter", sans-serif; 
+    padding-left: 17px;
+    
+     color: #888888;
+}
+
+ul li {
+    color: #333333;
+    font-family: "Inter", sans-serif;
+
+
+}
+ li::marker {
+  color: blue;
+}
+.btn1{
+    padding: 10px 120px;
+    
+    
+    text-align: center;
+    
+    
+    border-color:#2563eb ;
+    
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    
+    margin-bottom: 30px;
+    margin-left: 40px;
+    background-color: white;
+    cursor: pointer;
+
+    
+    
+    z-index: 1; 
+
+}
+span{
+    color:#2563eb ;
+    
+}
+.span1{
+    color: black;
+}
+
+.p21{
+    color: #93c5fd;
+     padding-left: 17px;
+    padding-top: 17px;
+     font-family: "Inter", sans-serif;
+}
+.p22{
+    color: #ffffff;
+    font-family: "Inter", sans-serif; 
+    padding-left: 17px;
+    padding-top: 5px;
+    font-weight: bold;
+    
+    font-size: 40px;
+
+}
+.p23{
+font-family: "Inter", sans-serif; 
+  padding-left: 17px;   
+  color: #888888;
+
+}
+.boxx{
+    background:#0d1b2a;
+    
+    
+}
+.btn2{
+     padding: 10px 120px;
+    
+    background-color:#2563eb;
+    text-align: center;
+    
+    
+    border-color:#2563eb ;
+    
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    
+    
+    
+    z-index: 1; 
+    margin-bottom: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+
+
+}
+.ul1 li{
+    color: #ffffff;
+}
+    
  
 
  
