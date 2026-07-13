@@ -607,3 +607,33 @@ font-family: "Inter", sans-serif;
 .stat-box p{
     color: #64748b;
 }
+
+ 
+
+
+
+ .footer{
+    background: #0d1b2a;
+    padding: 25px 0;
+ }
+ .footer-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 25px;
+ }
+  .op{
+    color: #ffffff;
+    
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+ } 
+ .footer-2 a{
+    color: white !important;
+    margin-left: 20px;
+    
+ }
